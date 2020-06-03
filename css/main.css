@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    flex-grow: .25;
+    background-color: #24305e;
+    color: white;
+    padding: 25px 0 0 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    flex-grow: 5;
+    background-color: #a8d0e6;
+    color: #24305e;
+    padding: 15px;
+}
+
+footer {
+    flex-grow: 0.25;
+    background-color: #f8e9a1;
+    color: #24305e;
+    padding: 30px 0 0 0;
+    text-align: center;
+}
+
+.body-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    text-align: center;
+    /* padding: 15px; */
+}
+
+.settings-div {
+    text-align: left;
+    padding: 25px;
+    
+}
+
+td, tr{
+    padding: 10px;
+}
